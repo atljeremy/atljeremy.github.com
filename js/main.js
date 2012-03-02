@@ -1,0 +1,1 @@
+((function(){var a;a=function(){function a(){}a.prototype.fadeIn=function(a){return $(""+a).fadeIn(1e3)};return a}();this.fox=new a})).call(this);

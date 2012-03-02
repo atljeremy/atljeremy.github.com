@@ -9,7 +9,7 @@ a:hover{color:#a93961;text-decoration:underline}
 #grid{width:820px;margin:10px auto 0 auto;overflow:scroll;clear:both;overflow:auto;overflow-x:hidden}
 .row{overflow:hidden}
 .cell{float:left;padding:5px;overflow:hidden;white-space:nowrap}
-.note{color:#000;background-image:url("../i/note.png");background-repeat:no-repeat;padding:10px 0 0 10px;width:390px;height:370px;position:relative}
+.note{color:#000;background-image:url("../i/note.png");background-repeat:no-repeat;padding:10px 0 0 10px;width:390px;height:370px;position:relative;display:none}
 .wrapper{position:relative}
 .bottom{position:absolute;bottom:35px}
 #footer{color:#fff;font-size:10px;font-family:Helvetica,Verdana,Arial,sans-serif;background:-moz-linear-gradient(bottom,rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.00) 100%);background:-webkit-gradient(linear,left bottom,left top,color-stop(0%,rgba(0,0,0,0.65)),color-stop(100%,rgba(0,0,0,0.00)));background:-webkit-linear-gradient(bottom,rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.00) 100%);background:-o-linear-gradient(bottom,rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.00) 100%);background:-ms-linear-gradient(bottom,rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.00) 100%);background:linear-gradient(bottom,rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.00) 100%);width:100%;height:35px;margin-top:0;margin-left:auto;margin-right:auto;padding-left:10px;padding-right:10px;padding-top:20px;position:fixed;bottom:0;z-index:1000}
