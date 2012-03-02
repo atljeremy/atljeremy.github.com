@@ -1,97 +1,24 @@
-/*********************************************************
-  HTML Element Styles
-*********************************************************/
-body {
-  color: white;
-  font-size: 13px;
-  font-family: Helvetica, Verdana, Arial, sans-serif;
-  background-image:url('../i/linen.jpg');
-  margin: 0px;
-}
-
-/*********************************************************
-  Div Styles
-*********************************************************/
-#header {
-  color: white;
-  font-size: 12px;
-  font-family: Helvetica, Verdana, Arial, sans-serif;
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0)));
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
-  background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
-  background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
-  background: linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
-  width: 100%;
-  height: 35px;
-  margin-top: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  position: fixed;
-  top: 0px;
-  z-index: 1000;
-}
-
-#mainContent {
-	padding: 10px;
-	margin-top: 35px;
-	margin-bottom: 50px;
-	width: 320px;
-}
-
-#footer {
-  color: white;
-  font-size: 10px;
-  font-family: Helvetica, Verdana, Arial, sans-serif;
-  background: -moz-linear-gradient(bottom,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%);
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0)));
-  background: -webkit-linear-gradient(bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
-  background: -o-linear-gradient(bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
-  background: -ms-linear-gradient(bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
-  background: linear-gradient(bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
-  width: 100%;
-  height: 35px;
-  margin-top: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 20px;
-  position: fixed;
-  bottom: 0px;
-  z-index: 1000;
-}
-
-#sectionHeader {
-  font-family: Helvetica, Verdana, Arial, sans-serif;
-  font-size: 15px;
-  padding: 5px;
-  margin-bottom: 10px;
-  width: 250px;
-  text-shadow: 2px 2px 2px #000;
-  filter: dropshadow(color=#000, offx=2, offy=2);
-  background: -moz-linear-gradient(left,  rgba(255,255,255,0.55) 0%, rgba(255,255,255,0) 100%);
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0.55)), color-stop(100%,rgba(255,255,255,0)));
-  background: -webkit-linear-gradient(left,  rgba(255,255,255,0.55) 0%,rgba(255,255,255,0) 100%);
-  background: -o-linear-gradient(left,  rgba(255,255,255,0.55) 0%,rgba(255,255,255,0) 100%);
-  background: -ms-linear-gradient(left,  rgba(255,255,255,0.55) 0%,rgba(255,255,255,0) 100%);
-  background: linear-gradient(left,  rgba(255,255,255,0.55) 0%,rgba(255,255,255,0) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfffffff', endColorstr='#00ffffff',GradientType=1 );
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-
-/*********************************************************
-  Text Styles
-*********************************************************/
-h1 {
-  font-family: Helvetica, Verdana, Arial, sans-serif;
-  margin-left: auto;
-  margin-right: auto;
-  text-shadow: 2px 2px 4px #000;
-  filter: dropshadow(color=#000, offx=2, offy=2);
-}
+.myNewClass{background:#f00;border:1px solid #fff}
+body{color:#fff;font-size:13px;font-family:Helvetica,Verdana,Arial,sans-serif;background:#ddd;margin:0;height:1000px}
+ul{list-style:none;display:block;position:inherit;bottom:5px}
+img{display:block;margin:10px auto 0 auto;-webkit-box-reflect:below 4px -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(.7,transparent),to(#fff));-webkit-border-radius:5px;border-radius:5px}
+a{color:#555;text-decoration:none}
+a:hover{color:#a93961;text-decoration:underline}
+#header{color:#333;text-align:center;font-size:3em;font-family:default-font,Helvetica,Verdana,Arial,sans-serif;border-bottom:1px solid #ccc;background:#fcfcfc;background:-moz-linear-gradient(top,rgba(252,252,252,0.80) 0%,rgba(216,216,216,0.80) 50%,#c4c4c4 51%,rgba(242,242,242,0.80) 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(252,252,252,0.80)),color-stop(50%,rgba(216,216,216,0.80)),color-stop(51%,rgba(196,196,196,0.80)),color-stop(100%,rgba(242,242,242,0.80)));background:-webkit-linear-gradient(top,rgba(252,252,252,0.80) 0%,rgba(216,216,216,0.80) 50%,rgba(196,196,196,0.80) 51%,rgba(242,242,242,0.80) 100%);background:-o-linear-gradient(top,rgba(252,252,252,0.80) 0%,rgba(216,216,216,0.80) 50%,rgba(196,196,196,0.80) 51%,rgba(242,242,242,0.80) 100%);background:-ms-linear-gradient(top,rgba(252,252,252,0.80) 0%,rgba(216,216,216,0.80) 50%,rgba(196,196,196,0.80) 51%,rgba(242,242,242,0.80) 100%);background:linear-gradient(top,rgba(252,252,252,0.80) 0%,rgba(216,216,216,0.80) 50%,rgba(196,196,196,0.80) 51%,rgba(242,242,242,0.80) 100%);text-shadow:1px 1px 1px #fff;width:100%;margin:0 auto 0 auto;padding:20px 10px 12px 10px;top:0;position:fixed;z-index:1000}
+#mainContent{padding:10px;margin-top:85px}
+.overflowHidden{overflow:hidden}
+#grid{width:820px;margin:10px auto 0 auto;overflow:scroll;clear:both}
+.row{overflow:hidden}
+.cell{float:left;padding:5px;overflow:hidden;white-space:nowrap}
+.note{color:#000;background-image:url("../i/note.png");background-repeat:no-repeat;padding:10px 0 0 10px;width:390px;height:370px}
+#footer{color:#fff;font-size:10px;font-family:Helvetica,Verdana,Arial,sans-serif;background:-moz-linear-gradient(bottom,rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.00) 100%);background:-webkit-gradient(linear,left bottom,left top,color-stop(0%,rgba(0,0,0,0.65)),color-stop(100%,rgba(0,0,0,0.00)));background:-webkit-linear-gradient(bottom,rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.00) 100%);background:-o-linear-gradient(bottom,rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.00) 100%);background:-ms-linear-gradient(bottom,rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.00) 100%);background:linear-gradient(bottom,rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.00) 100%);width:100%;height:35px;margin-top:0;margin-left:auto;margin-right:auto;padding-left:10px;padding-right:10px;padding-top:20px;position:fixed;bottom:0;z-index:1000}
+#sectionHeader{font-family:Helvetica,Verdana,Arial,sans-serif;font-size:15px;padding:5px;margin-bottom:10px;width:250px;text-shadow:2px 2px 2px #000;filter:dropshadow(#000,2,2);background:-moz-linear-gradient(left,rgba(255,255,255,0.55) 0%,rgba(255,255,255,0.00) 100%);background:-webkit-gradient(linear,left top,right top,color-stop(0%,rgba(255,255,255,0.55)),color-stop(100%,rgba(255,255,255,0.00)));background:-webkit-linear-gradient(left,rgba(255,255,255,0.55) 0%,rgba(255,255,255,0.00) 100%);background:-o-linear-gradient(left,rgba(255,255,255,0.55) 0%,rgba(255,255,255,0.00) 100%);background:-ms-linear-gradient(left,rgba(255,255,255,0.55) 0%,rgba(255,255,255,0.00) 100%);background:linear-gradient(left,rgba(255,255,255,0.55) 0%,rgba(255,255,255,0.00) 100%);-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}
+@font-face{font-family:default-font;src:url("RexBold.otf")}
+h1{color:#282828;text-align:center;font-family:default-font,Helvetica,Verdana,Arial,sans-serif;font-size:6em;margin:5px auto -12px auto;text-shadow:0 1px 0 #fff}
+h2{color:#282828;text-align:center;font-family:default-font,Helvetica,Verdana,Arial,sans-serif;font-size:3em;margin:5px auto -12px auto;text-shadow:0 1px 0 #fff}
+underline{text-decoration:underline}
+blue{color:#449}
+red{color:#99221f}
+pink{color:#a93961}
+green{color:#3e9944}
+purple{color:#7644a7}
