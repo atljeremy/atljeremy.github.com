@@ -11,14 +11,13 @@ a:hover{color:#fff;background-color:#000}
 .clear{clear:both}
 .note{height:100%;margin:.313em;background:#f8f8f8;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:5px solid #f8f8f8;-moz-box-shadow:0 4px 2px #ddd;-webkit-box-shadow:0 4px 2px #ddd;box-shadow:0 4px 2px #ddd;padding:.8em;width:46%;padding:10px;margin:10px 5px;height:390px;display:none}
 #footer{height:100%;margin:.313em;background:#f8f8f8;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:5px solid #f8f8f8;-moz-box-shadow:0 4px 2px #ddd;-webkit-box-shadow:0 4px 2px #ddd;box-shadow:0 4px 2px #ddd;padding:.8em;margin-top:16px;min-height:20px}
-#sectionHeader{font-family:Helvetica,Verdana,Arial,sans-serif;font-size:15px;padding:5px;margin-bottom:10px;width:250px;text-shadow:2px 2px 2px #000;filter:dropshadow(#000,2,2);background:-moz-linear-gradient(left,rgba(255,255,255,0.55) 0%,rgba(255,255,255,0) 100%);background:-webkit-gradient(linear,left top,right top,color-stop(0%,rgba(255,255,255,0.55)),color-stop(100%,rgba(255,255,255,0)));background:-webkit-linear-gradient(left,rgba(255,255,255,0.55) 0%,rgba(255,255,255,0) 100%);background:-o-linear-gradient(left,rgba(255,255,255,0.55) 0%,rgba(255,255,255,0) 100%);background:-ms-linear-gradient(left,rgba(255,255,255,0.55) 0%,rgba(255,255,255,0) 100%);background:linear-gradient(left,rgba(255,255,255,0.55) 0%,rgba(255,255,255,0) 100%);-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}
 .float_left{float:left}
 .float_right{float:right}
 .links{margin:50px auto;text-align:center}
 .promo-image{height:200px;margin:20px auto;-webkit-box-reflect:below 4px -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(.7,transparent),to(#fff))}
 .shadow{-moz-box-shadow:0 1px 3px #ddd;-webkit-box-shadow:0 1px 3px #ddd;box-shadow:0 1px 3px #ddd}
 .greenBtn{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;padding:10px;text-align:center;color:#fff !important;background:#67c478;display:block;margin-top:2px}
-@font-face{font-family:default-font;src:url("fonts/HelveticaNeueTHin.ttf")}
+@font-face{font-family:default-font;src:url("fonts/HelveticaNeueThin.ttf")}
 @font-face{font-family:fancy-font;src:url("fonts/angelina.TTF")}
 h1{color:#282828;font-family:default-font,Helvetica,Verdana,Arial,sans-serif;font-size:6em;margin:5px auto -12px auto;text-shadow:0 1px 0 #fff}
 h2{color:#282828;text-align:center;font-family:default-font,Helvetica,Verdana,Arial,sans-serif;font-size:3em;margin:5px auto -12px auto;text-shadow:0 1px 0 #fff}
