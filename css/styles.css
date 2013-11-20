@@ -9,7 +9,7 @@ a:hover{color:#fff;background-color:#000}
 #mainContent{padding:2px 0}
 .overflowHidden{overflow:hidden}
 .clear{clear:both}
-.note{height:100%;margin:.313em;background:#f8f8f8;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:5px solid #f8f8f8;-moz-box-shadow:0 4px 2px #ddd;-webkit-box-shadow:0 4px 2px #ddd;box-shadow:0 4px 2px #ddd;padding:.8em;width:46%;padding:10px;margin:10px 5px;height:390px;display:none}
+.note{height:100%;margin:.313em;background:#f8f8f8;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:5px solid #f8f8f8;-moz-box-shadow:0 4px 2px #ddd;-webkit-box-shadow:0 4px 2px #ddd;box-shadow:0 4px 2px #ddd;padding:.8em;width:45.5%;padding:10px;margin:10px 5px;height:390px;display:none}
 #footer{height:100%;margin:.313em;background:#f8f8f8;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:5px solid #f8f8f8;-moz-box-shadow:0 4px 2px #ddd;-webkit-box-shadow:0 4px 2px #ddd;box-shadow:0 4px 2px #ddd;padding:.8em;margin-top:16px;min-height:20px}
 .float_left{float:left}
 .float_right{float:right}
