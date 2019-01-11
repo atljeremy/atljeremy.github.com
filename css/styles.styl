@@ -1,9 +1,11 @@
+// out: ./styles.css, sourcemap: true, compress: true
+
 // Mixins
 borderRadius()
   -webkit-border-radius arguments
   -moz-border-radius arguments
   border-radius arguments
-  
+
 mainDivStyle()
   height 100%
   margin 0.313em
@@ -21,13 +23,13 @@ mainContainer()
   margin auto
   padding 0 0.313em
   position relative
-  
+
 btnDefaults()
   borderRadius(5px)
   padding 10px
   text-align center
   color #ffffff !important
-  
+
 reflection()
   -webkit-box-reflect below 4px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.7, transparent), to(white))
 
@@ -41,13 +43,13 @@ body
   background #eeeeee
   overflow -moz-scrollbars-vertical !important
   overflow-x scroll !important
-  
+
 img
   display block
   margin 5px 0px
-  -webkit-border-radius 5px  
+  -webkit-border-radius 5px
   border-radius 5px
-  
+
 a
   margin-left 5px
   color #000
@@ -80,7 +82,7 @@ a
 
 #mainContent
   padding 2px 0px
-  
+
 .overflowHidden
   overflow hidden
 
@@ -95,31 +97,36 @@ a
   height 390px
   display none
 
-#footer 
+#footer
   mainDivStyle()
   margin-top 16px
   min-height 20px
 
 .float_left
   float left
-  
+
 .float_right
   float right
-  
+
 .links
   margin 50px auto
   text-align center
-  
+
 .promo-image
   height 200px
   margin 20px auto
   reflection()
-  
+
+.medium-promo-image
+  height 142px
+  margin 20px auto
+  reflection()
+
 .shadow
   -moz-box-shadow 0px 1px 3px #dddddd
   -webkit-box-shadow 0px 1px 3px #dddddd
   box-shadow 0px 1px 3px #dddddd
-  
+
 .greenBtn
   btnDefaults()
   background #67C478
@@ -132,7 +139,7 @@ a
 @font-face
   font-family default-font
   src url('fonts/HelveticaNeueThin.ttf')
-  
+
 @font-face
   font-family fancy-font
   src url('fonts/angelina.TTF')
@@ -151,17 +158,17 @@ h2
   font-size 3em
   margin 5px auto -12px auto
   text-shadow 0px 1px 0px #FFF
-  
+
 .fancy
   color #999999
   font-family fancy-font, Helvetica, Verdana, Arial, sans-serif
   font-size 2em
   font-weight normal
   text-shadow 0.04em 0.04em 0 #FFF
-  
+
 underline
   text-decoration underline
-  
+
 blue
   color #449
 red
@@ -171,4 +178,4 @@ pink
 green
   color #3e9944
 purple
-  color #7644a7 
+  color #7644a7
